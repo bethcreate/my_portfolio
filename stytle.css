@@ -1,0 +1,196 @@
+nav{
+    top: 0%;
+    width: 100%;
+    /* position: fixed; */
+    background-color: #0EC2B8;
+}
+
+.topnav{
+    text-align: right;
+    background-color: rgb(14,194,184);
+   
+
+}
+.topnav a:hover{
+    background-color: black;
+  }
+  
+.topnav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.topnav ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 30px;
+    font-size: 15px;text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+
+
+}
+/* styling navigation bar */
+/* .my-navbar{
+    text-align: right;
+    color: black;
+    background-color: rgb(14,194,184);
+    width: 100%;
+   
+    
+}
+.my-navbar li :first-child{
+  
+    border-left: 1px
+}
+
+
+.my-navbar ul li{
+    list-style: none;
+    display: inline-block;
+  
+}
+.my-navbar ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 30px;
+    font-size: 15px;text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+.my-navbar a:hover{
+  background-color: black;
+} */
+
+/* aligning the image and text */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+/* positioning image */
+.column img{
+    margin-left: 100%;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    bottom: -70px;
+    float: left;
+}
+.caption p{
+    position:relative; right:400px; top:2px;
+    position: relative;
+    top: 180px;
+    font-size: 40px;
+}
+
+#section1{
+    height: 600px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#section2{
+    height: 600px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.column1{
+    float: left;
+    width: 50%;
+    height: 700px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.intro p{
+    color: black;
+}
+.caption2 h1{
+    color: black;
+}
+/* resume button */
+.container button{
+    text-align: center;
+   
+    
+    /* margin-top: 360px; */
+
+}
+#btn{
+    color: #0EC2B8;
+    background-color: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    bottom: -200px;
+
+}
+.btn1:hover{
+    color: black;
+}
+
+#section3{
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+#section3 h1{
+    color: black;
+}
+
+
+#section4{
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
