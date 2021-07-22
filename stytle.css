@@ -1,3 +1,4 @@
+
 nav{
     top: 0%;
     width: 100%;
@@ -35,40 +36,7 @@ nav{
 
 
 }
-/* styling navigation bar */
-/* .my-navbar{
-    text-align: right;
-    color: black;
-    background-color: rgb(14,194,184);
-    width: 100%;
-   
-    
-}
-.my-navbar li :first-child{
-  
-    border-left: 1px
-}
 
-
-.my-navbar ul li{
-    list-style: none;
-    display: inline-block;
-  
-}
-.my-navbar ul li a{
-    text-decoration: none;
-    color: white;
-    width: 100px;
-    display: block;
-    padding: 25px 30px;
-    font-size: 15px;text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
- 
-}
-.my-navbar a:hover{
-  background-color: black;
-} */
 
 /* aligning the image and text */
 .column {
@@ -83,6 +51,7 @@ nav{
     clear: both;
    
   }
+  /* styling home page */
 /* positioning image */
 .column img{
     margin-left: 100%;
@@ -95,6 +64,12 @@ nav{
     position: relative;
     bottom: -70px;
     float: left;
+}
+.homeimage::after{
+    content: "";
+    clear: both;
+    display: table;
+
 }
 .caption p{
     position:relative; right:400px; top:2px;
@@ -176,10 +151,20 @@ h1{
     padding: 10px 20px;
     font-size: 20px;
     cursor: pointer;
-    margin-top: -70px;
- 
+    
 
 }
+.Button3{
+   
+    position: absolute;
+    top: 100%;
+    left: 40%; 
+    -ms-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%); 
+   
+
+}
+
 
 .btn1:hover{
     color: black;
@@ -230,21 +215,21 @@ h1{
 }
 
 
-/* contact us page */
+/* styling contact us page */
 
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
   }
   
-  /* Style the submit button with a specific background color etc */
+  
   input[type=submit] {
     background-color: gray;
     color: black;
@@ -255,12 +240,12 @@ input[type=text], select, textarea {
     bottom: -200%;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
     background-color: white;
   }
   
-  /* Add a background color and some padding around the form */
+  
   .contactus{
     border-radius: 5px;
     background-color: #192546;
@@ -276,6 +261,24 @@ input[type=text], select, textarea {
       margin-top: 8%;
 
   }
+  /* making the website responsive */
+.left, .right {
+  float: left;
+  width: 20%; 
+}
+
+.main {
+  float: left;
+  width: 60%; 
+}
+
+
+@media screen and (max-width: 600px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+}
+
 
 
 
