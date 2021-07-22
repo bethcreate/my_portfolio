@@ -278,7 +278,13 @@ input[type=text], select, textarea {
     width: 100%; 
   }
 }
-
+/* styling icons */
+.socialmedia{
+    align-items: center;
+    margin-left: 30%;
+  
+   
+}
 
 
 
