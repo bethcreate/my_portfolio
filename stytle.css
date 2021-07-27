@@ -231,7 +231,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit] {
-    background-color: gray;
+    background-color: white;
     color: black;
     padding: 12px 20px;
     border: none;
@@ -278,14 +278,42 @@ input[type=text], select, textarea {
     width: 100%; 
   }
 }
-/* styling icons */
-.socialmedia{
-    align-items: center;
-    margin-left: 30%;
-  
-   
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  /* margin-left: 50%; */
+  /* justify-content: center; */
+ /* left: 50%; */
 }
 
+.fa-linkedin {
+  background: #192546;
+  color: white;
+}
+
+.fa-github {
+  background: #192546;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #192546;
+  color: white;
+}
+.social-media{
+  margin-left: 43%;
+}
+
+
+
+
+ 
 
 
 
