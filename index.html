@@ -1,163 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="stytle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Beth Kamau</title>
 </head>
-
 <body>
-    <nav>
-        <div class="topnav">
-            <ul>
-                <li><a id="sec-1" href="#home">HOME</a></li>
-                <li><a id="sec-1" href="#about">ABOUT</a></li>
-                <li><a id="sec-1" href="#projects">PROJECTS</a></li>
-                <li><a id="sec-1" href="#contact">CONTACT</a></li>
-            </ul>
+  <!--Navigation-->
+  <header>
+    <nav class="nav">
+      <a href="#" class="nav__togglebtn">
+        <i class="fa fa-bars"></i>
+      </a>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#homepage" class="nav__link">HOME</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
+        <li class="nav__item"><a href="#portfolio" class="nav__link">PROJECTS</a></li>
+        <li class="nav__item"><a href="#contactme" class="nav__link">CONTACT </a></li>
+      </ul>
+   
+  
+
+        <div class="maq"><marquee hspace="50%" scrollamount="5s">
+          <span style="font-size:18px;" class="material-icons">mail</span><em>wbeth.kamau@gmail.com</em>
+          <span style="margin-left:10px; font-size:18px;" class="material-icons">call</span><em>+254 743442637</em>
+        </marquee></div>
+
+  </header>
+   
+  
+  <main>
+ 
+    <section class="home" id="homepage">
+      <div class="home__profile">
+        <img class="home__img" src="images/portpic-removebg-preview.png" alt="profilephoto">
+      </div>
+      <div class="home__desc">
+        <h2 class="greeting"> Hello, I am</h2>
+        <h1 class="home__name">Beth Wanjiru Kamau</h1>
+        <p class="home__profession"><span style="color: #AC2947;">Software Developer</span></p>
+     
+        </ul>
+      </div>
+      
+    </section>
+  
+    <section id="about" class="about">
+      <div class="about__container">
+        <div class="about__desc">
+          <h2 class="about__title">About Me</h2>
+          <p>
+
+Beth is a proactive software developer who is <br>
+curious about developing user-oriented solutions<b></b>r
+ that address urgent human needs. She believes <br>
+ that with her growing technological skills <br>
+ she will contribute to the advancement of the<br>
+  digital society. She enjoys coding using,<br>
+   concepts such as Django to build an e-commerce,
+    fashion website that <br>facilitates convenient
+     and efficient user interaction.<br> In her downtime,
+       she likes to indulge in books that <br>explore human
+        mindsets and behaviors as the mind is the center of all innovations.
+
+          </p>
+            
         </div>
-    </nav>
+        <!-- <div class="about__skills">
+          <h3> Skills</h3>
+          <ul class="about__list">
+            <li class="about__item">HTML5</li>
+            <li class="about__item"> CSS3</li>
+            <li class="about__item"> SCSS</li>
+            <li class="about__item"> JavaScript</li>
+            <li class="about__item"> React.js</li>
+            <li class="about__item"> Bootstrap</li>
+            <li class="about__item"> Github</li>
+            <li class="about__item"> Python</li>
+            <li class="about__item"> Django</li>
+            <li class="about__item"> Kotlin</li>
+            <li class="about__item"> UI/UX Design</li>
+            <li class="about__item"> IoT</li>
+
+            
+          </ul>
+        </div> -->
+      </div>
+      <a href="Beth Kamau cv.pdf" target="blank" class="btn">Resume </a> 
+
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>Projects</h2>
+      <div class="container">
+        
+        <div class="card">
+          <img class="card__image" src="images/Screenshot from 2021-08-15 11-55-22.png" alt="project2-img">
+          <div class="card__body">
+            <h3 class="card__title">School System</h3>
+            <p class="card__desc">Built using Django, HTML, CSS and JavaScript</p>
+            <div class="card__btn">
+              <a href="https://github.com/bethcreate/schoolsystem
+              " target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/Screenshot from 2021-08-24 06-53-54.png" alt="project4-img">
+          <div class="card__body">
+            <h3 class="card__title">Todo app</h3>
+            <p class="card__desc"> Built with python, Django, HTML and CSS </p>
+            <div class="card__btn">
+              <a href="https://github.com/bethcreate/todo.git
+              " target="_blank"> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/Screenshot from 2021-07-11 12-27-00.png" alt="project3-img">
+          <div class="card__body">
+          <h3 class="card__title">Drawing App</h3>
+          <p class="card__desc">Built with HTML, CSS and JavaScript</p>
+          <div class="card__btn">
+          <a href="https://github.com/Promise-nuwasa/drawing-app" target="_blank"> Code</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/ecomm2.jpeg" alt="project4-img">
+          <div class="card__body">
+            <h3 class="card__title">Galcare Fashion e-commerce</h3>
+            <p class="card__desc"> Built using Django, HTML and CSS </p>
+            <div class="card__btn">
+              <a href="https://github.com/bethcreate/Galcare.git
+              " target="_blank"> Code</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card">
+          <img class="card__image" src="images/Screenshot from 2021-07-07 12-52-45.png" alt="project4-img">
+          <div class="card__body">
+            <h3 class="card__title">Fresh Juice website</h3>
+            <p class="card__desc">Built  with HTML and css</p>
+            <div class="card__btn">
+              <a href="https://github.com/bethcreate/Picturebook.git
+              " target="_blank"> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/kali.png" alt="project4-img">
+          <div class="card__body">
+            <h3 class="card__title">Events calender</h3>
+            <p class="card__desc">Built JavaScript and Django</p>
+            <div class="card__btn">
+              <a href="https://happy-babbage-83920c.netlify.app
+              " target="_blank"> Code</a>
+            </div>
+          </div>
+        </div>
+        
+       
+
+
+      </div>
+    </section>
+  
+    <section id="contactme" class="contactme">
     
-    <div id="home">
-        <div id="section1">
-            <!-- <h1>HOME</h1> -->
-            <div class="row">
-                <div class="column">
-                    <div class="homeimage">
-                        <img height="350px" width="400px" src="images/portpic-removebg-preview.png" style="width:100%">
-                    </div>
-                </div>
-                <div class="caption">
+  <footer>
+      <h2 class="footer__title">Let's connect</h2>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/beth-kamau-designer/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/bethcreate" target="_blank"> <i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/Beth_Wkamau" target="_blank"> <i class="fa fa-twitter"></i></a>
 
-                    <p>
-                        
-                        <br>I am Beth Kamau,
-                        <br>A software developer.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <hr class="line">
-
-
-    <div id="about">
-        <div id="section2">
-            <div class="caption2">
-                <h1>ABOUT</h1>
-                <div class="row1">
-                    <div class="column1">
-                        <img height="300" width="300" src="images/Screenshot from 2021-07-07 12-52-45.png">
-                        <!-- <div class="card-body"> -->
-                        <div class="Button1">
-                            <button id="btn">Coded projects</button>
-                        </div>
-                        <p class="card-text">
-                            I am a hands-on software developer who is passionate<br> about tech.
-                            I love playing with colors and scribbling<br>
-                            random ideas. I am open minded and always<br>
-                            eager to learn new concepts.</p>
-                    </div>
-                    <!-- </div> -->
-                    <div class="column1">
-                        <div class="card">
-                            <img height="300" width="300" src="images/joel-wyncott-WYiIkQFclA4-unsplash (1).jpg"
-                                class="card-img-top" alt="...">
-                            <!-- <div class="card-body"> -->
-                            <div class="Button2">
-                                <button id="btn">Designed projects</button>
-                            </div>
-                            <p class="card-text2">
-                                Violin is one of the things that I enjoy <br>
-                                listening to and also play. After havinga long day<br>
-                                of coding, Violin makes me feel relaxed and energized.</p>
-                        </div>
-                    </div>
-                    <!-- </div> -->
-
-                </div>
-            </div>
-
-            <div class="Button3">
-                <button id="btn">RESUME</button>
-            </div>
-        </div>
-        <hr class="line">
-
-        <div id="projects">
-            <div id="section3">
-                <div class="sectionProject">
-                    <h1>PROJECTS</h1>
-                </div>
-                <div class="row2">
-                    <div class="column2">
-                        <div class="kalimoni">
-                            <img height="250" width="400" src="images/kali.png" alt="">
-                            <p>The project is about a mama mboga which cells groceries<br>
-                                online.This project is codeded using<br>
-                                javascript, html, css and bootstrap</p>
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <div>
-                            <img height="250" width="400" src="images/Screenshot from 2021-07-11 12-27-00.png" alt="">
-                            <p>I have different designs projects I developed<br>
-
-                                using indesign and figma. </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <hr class="line">
-    <div id="contact">
-
-        <div id="section4">
-
-
-            <div class="contactus">
-                <form>
-                    <h1>CONTACT ME</h1>
-                    <label for="name"></label>
-                    <input type="text" id="name" name="Enter your name" placeholder="Enter your name">
-
-                    <label for="Pnumber"></label>
-                    <input type="text" id="pnumber" name="phone number" placeholder="Enter your phone number">
-
-                    <label for="subject"></label>
-                    <textarea id="subject" name="subject" placeholder="Send a message.." style="height:50px"></textarea>
-
-
-                </form>
-                <input type="submit" value="Submit">
-
-
-
-            </div>
-
-
-
-        </div>
-    </div>
-<div class="social-media">
-<a href="#" class="fa fa-github"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="mailto:webmaster@example.com">Beth</a>
-
-</div>
-
-    <hr id="breakline">
-
-
+      </div>
+      <p class="footer__desc">Beth Kamau &#169; 2021</p>
+  </footer>
+  <script src="app.js"></script>
 </body>
-
 </html>
