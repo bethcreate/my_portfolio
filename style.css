@@ -1,5 +1,5 @@
 :root {
-  --primary-color:black;
+  --primary-color:rgb(143, 124, 124);
 }
 
 * {
@@ -378,7 +378,7 @@ button{
 }
 
 footer {
-  background-color: #AE2A48;
+  background-color: rgb(143, 124, 124);
   color: white;
   margin-top: 1rem;
   padding: 50px 20px 20px 20px;
