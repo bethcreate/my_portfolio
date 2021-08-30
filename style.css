@@ -44,17 +44,17 @@ img[data-src-800px] {
 }
 .btn {
   margin-bottom: 0%;
-  margin-top: 20px;
+  margin-top: 100px;
   background-color: #AE2A48;
   border: none;
-  color: white;
+  color: black;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 18px;
   width: 200px;
-  margin-left: 530px;
+  
   border-radius: 30px;
-  margin-top: 30px;
+
   text-decoration: none;
   
 }
@@ -202,11 +202,12 @@ div.maq span{
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  left: 70px;
 }
 .home__desc {
   display: block;
   text-align: center;
-  margin-right: 3rem;
+  margin-left: 100rem;
   padding-top: 50px;
 }
 .home__name {
@@ -286,9 +287,10 @@ div.maq span{
 
 }
 .btn{
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.2rem;
   font-weight: bold;
+  margin-left: 75px;
 }
 button{
   margin-left: 45%;
