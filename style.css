@@ -43,25 +43,28 @@ img[data-src-800px] {
 }
 }
 .btn {
-  margin-bottom: 0%;
-  margin-top: 100px;
   background-color: #AE2A48;
   border: none;
-  color: black;
+  color: white;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 18px;
   width: 200px;
-  
   border-radius: 30px;
-
   text-decoration: none;
+  left: 90%;
+  margin-left: 100px;
   
+}
+.Button{
+  margin-left: 350px;
+  margin-bottom: 50px;
+  padding-top: 100px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: white;
+  background-color: rebeccapurple;
 }
 body {
   font-family: 'Kumbh Sans', sans-serif;
@@ -259,9 +262,15 @@ div.maq span{
   padding: 5px 5px 5px;
 }
 .about__title {
-  text-align: center;
+  /* text-align: center; */
   color: white;
   margin-bottom: 1rem;
+  margin-left: 350px;
+  
+}
+
+#paragraph{
+  text-align: center;
 }
 .about__container {
   text-align: center;
