@@ -265,7 +265,7 @@ div.maq span{
   /* text-align: center; */
   color: white;
   margin-bottom: 1rem;
-  margin-left: 350px;
+  margin-left: 450px;
   
 }
 
@@ -276,30 +276,13 @@ div.maq span{
   text-align: center;
   font-size: 1.2rem;
 }
-.about__skills {
-  width: 100%;
-  margin-top: 2rem;
-  margin-left: 5rem;
-}
-.about__skills h3 {
-  color: white;
-  margin-bottom: 1rem;
-}
-.about__list {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding-left: 30px;
 
-}
+
 .btn{
   /* text-align: center; */
   font-size: 1.2rem;
   font-weight: bold;
-  margin-left: 75px;
+  margin-left: 200px;
 }
 button{
   margin-left: 45%;
@@ -376,7 +359,7 @@ button{
   transition: all 0.3s ease;
 }
 .card:hover{
-  background-color: rgb(243, 235, 235);
+  /* background-color: rgb(243, 235, 235); */
   transform: 3s;
 }
 .card__btn a:hover {
