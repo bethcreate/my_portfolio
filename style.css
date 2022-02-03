@@ -276,7 +276,9 @@ div.maq span{
   text-align: center;
   font-size: 1.2rem;
 }
-
+.fw-bold{
+  font-weight: bold;
+}
 
 .btn{
   /* text-align: center; */
